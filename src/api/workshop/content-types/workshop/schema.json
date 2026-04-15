@@ -32,9 +32,6 @@
     "description": {
       "type": "text"
     },
-    "content": {
-      "type": "json"
-    },
     "thumbnail": {
       "type": "media",
       "multiple": false,
@@ -55,6 +52,15 @@
       "type": "integer"
     },
     "includes": {
+      "type": "json"
+    },
+    "instructor": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "content": {
       "type": "json"
     }
   }

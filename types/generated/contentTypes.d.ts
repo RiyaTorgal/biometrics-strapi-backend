@@ -606,12 +606,14 @@ export interface ApiWorkshopWorkshop extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
+    date: Schema.Attribute.String;
     description: Schema.Attribute.Text;
     discountedPrice: Schema.Attribute.String;
     discountPercent: Schema.Attribute.Integer;
     duration: Schema.Attribute.String;
     idealFor: Schema.Attribute.String;
     includes: Schema.Attribute.JSON;
+    instructor: Schema.Attribute.String;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
