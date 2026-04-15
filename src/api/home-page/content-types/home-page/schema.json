@@ -28,7 +28,8 @@
       "type": "string"
     },
     "heroTagline": {
-      "type": "string"
+      "type": "string",
+      "private": false
     },
     "aboutSubtitle1": {
       "type": "string"
