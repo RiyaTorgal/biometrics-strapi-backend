@@ -27,7 +27,7 @@
     "heroCTALabel": {
       "type": "string"
     },
-    "tagline": {
+    "heroTagline": {
       "type": "string"
     },
     "aboutSubtitle1": {

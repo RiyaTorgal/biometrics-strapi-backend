@@ -527,6 +527,7 @@ export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
       Schema.Attribute.Private;
     heroCTALabel: Schema.Attribute.String;
     heroImage: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    heroTagline: Schema.Attribute.String;
     heroTitle: Schema.Attribute.String;
     leadershipBio1: Schema.Attribute.Text;
     leadershipBio2: Schema.Attribute.Text;
@@ -543,7 +544,6 @@ export interface ApiHomePageHomePage extends Struct.SingleTypeSchema {
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
-    tagline: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
