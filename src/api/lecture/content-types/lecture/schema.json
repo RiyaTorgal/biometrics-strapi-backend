@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lectures",
+  "info": {
+    "singularName": "lecture",
+    "pluralName": "lectures",
+    "displayName": "Lecture"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "mode": {
+      "type": "string"
+    },
+    "idealFor": {
+      "type": "string"
+    },
+    "priceNote": {
+      "type": "string"
+    },
+    "content": {
+      "type": "json"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "originalPrice": {
+      "type": "string"
+    },
+    "discountPrice": {
+      "type": "string"
+    },
+    "discountPercent": {
+      "type": "integer"
+    },
+    "includes": {
+      "type": "json"
+    }
+  }
+}
